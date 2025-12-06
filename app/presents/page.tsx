@@ -52,7 +52,7 @@ export default function PresentsPage() {
               onMouseLeave={() => setHoveredGift(null)}
               className={`
                 relative w-40 h-40 md:w-44 md:h-44 
-                bg-[#a16b6b] rounded-2xl
+                bg-[#c04242]  rounded-2xl
                 flex items-center justify-center
                 overflow-hidden
                 transition-all duration-300 ease-out
