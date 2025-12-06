@@ -42,7 +42,6 @@ export default function SongPage() {
     "/images/song4.jpeg",
     "/images/proteje.png",
     "/images/song3.jpeg",
-    
   ];
 
   return (
@@ -64,7 +63,7 @@ export default function SongPage() {
         <img
           src="/images/tierno.png"
           alt="Flexing cat"
-          className="absolute bottom-8 right-8 w-50 h-50 object-contain animate-float-delayed z-20" // 👈 SOLO CAMBIO ESTE: bottom-24 right-10 → bottom-8 right-8
+          className="absolute bottom-8 right-8 w-50 h-50 object-contain animate-float-delayed z-20"
         />
 
         {/* Decorative music notes */}
@@ -80,10 +79,10 @@ export default function SongPage() {
         <div className="absolute top-12 left-[48%] text-red-700 text-lg opacity-60">
           &#10084;
         </div>
-        <div className="absolute bottom-32 right-16 text-red-700  text-sm opacity-50">
+        <div className="absolute bottom-32 right-16 text-red-700 text-sm opacity-50">
           &#10022;
         </div>
-        <div className="absolute bottom-40 right-8 text-red-700  text-xl opacity-60">
+        <div className="absolute bottom-40 right-8 text-red-700 text-xl opacity-60">
           &#10022;
         </div>
 
@@ -138,7 +137,7 @@ export default function SongPage() {
                 <iframe
                   width="100%"
                   height="100%"
-                  src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=0&mute=0&enablejsapi=1`}
+                  src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&enablejsapi=1`}
                   title="Afaz Natural - Te Amo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -197,7 +196,7 @@ export default function SongPage() {
 
             <p className="text-base md:text-lg font-handwritten">
               Y aunque pueda parecer una canción simple, para mí se volvió un
-              pedacito de nosotros, Una vibra tuya, un bonito recuerdo de como inició
+              pedacito de nosotros, Una vibra a ti, un bonito recuerdo de como inició
               todo, y un sonido que me pone de buen humor inmediatamente. Y no
               importa cuántas veces suene o cuántas veces la escuche, siempre va
               a traerte hacia mi.
