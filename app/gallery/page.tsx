@@ -186,7 +186,7 @@ export default function GalleryPage() {
             onClick={closeModal}
           >
             <div
-              className="bg-gray-900 rounded-2xl p-6 max-w-md w-full text-center shadow-2xl justify-center"
+              className=" bg-[#c04242] rounded-2xl p-6 max-w-md w-full text-center shadow-2xl justify-center"
               onClick={(e) => e.stopPropagation()}
             >
               {/* QR con corazón en el centro */}
@@ -195,7 +195,7 @@ export default function GalleryPage() {
                   value={SPOTIFY_TRACKS[currentTrackIndex]}
                   size={220}
                   fgColor="#ffffff"
-                  bgColor= "#c04242"
+                  bgColor= "#121212"
                   level="H"
                 />
                 {/* Corazón en el centro del QR */}
