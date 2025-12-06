@@ -20,7 +20,7 @@ const patrickHand = Patrick_Hand({
 })
 
 export const metadata: Metadata = {
-  title: "A Gift For You",
+  title: "Te amoooo",
   description: "A special mini-site filled with love and memories",
   generator: "v0.app",
   icons: {
