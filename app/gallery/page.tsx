@@ -195,7 +195,7 @@ export default function GalleryPage() {
                   value={SPOTIFY_TRACKS[currentTrackIndex]}
                   size={220}
                   fgColor="#ffffff"
-                  bgColor="#121212"
+                  bgColor= "#c04242"
                   level="H"
                 />
                 {/* Corazón en el centro del QR */}
@@ -203,7 +203,7 @@ export default function GalleryPage() {
               </div>
 
               {/* Texto "the soundtrack of our love" */}
-              <p className="text-pink-300 text-xs mt-2 font-handwritten justify-center">
+              <p className="text-white text-xs mt-2 font-handwritten justify-center">
               Una cancioncita para tii :)
               </p>
 
