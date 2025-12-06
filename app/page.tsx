@@ -45,7 +45,7 @@ export default function WelcomePage() {
             onMouseLeave={() => setHoveredButton(null)}
             className={`
               px-10 md:px-14 py-3 md:py-4 
-              bg-romantic-light text-white 
+              bg-[#c04242] text-white 
               text-xl md:text-2xl font-marker
               rounded-full border-4 border-[#8b5e5e]
               transition-all duration-200 ease-out
@@ -62,7 +62,7 @@ export default function WelcomePage() {
             onMouseLeave={() => setHoveredButton(null)}
             className={`
               px-10 md:px-14 py-3 md:py-4 
-              bg-romantic-light text-white 
+               bg-[#c04242] text-white 
               text-xl md:text-2xl font-marker
               rounded-full border-4 border-[#8b5e5e]
               transition-all duration-200 ease-out
