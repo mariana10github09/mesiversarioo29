@@ -148,7 +148,7 @@ Deseo con todo mi corazón que esto nuestro dure todo lo que pueda durar, meses,
               <img
                 src="/images/carta2.png"
                 alt="Flexing blue cat"
-                className="w-full h-full object-contain animate-float"
+                className="w-full h-full bottom-24 object-contain animate-float"
               />
             </div>
           </div>
