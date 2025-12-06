@@ -37,7 +37,7 @@ export default function NoChoicePage() {
           onMouseLeave={() => setIsHovered(false)}
           className={`
             px-10 md:px-14 py-3 md:py-4 
-            bg-romantic-light text-white 
+             bg-[#c04242] text-white 
             text-lg md:text-xl font-marker
             rounded-full border-4 border-[#8b5e5e]
             transition-all duration-200 ease-out
