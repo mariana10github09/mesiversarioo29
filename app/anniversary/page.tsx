@@ -144,7 +144,7 @@ Deseo con todo mi corazón que esto nuestro dure todo lo que pueda durar, meses,
               <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-12 h-4 bg-pink-100/80 rotate-2" />
             </div>
 
-            <div className="w-60 h-60 md:w-80 md:h-80 relative">
+            <div className="w-60 h-60 md:w-80 md:h-80 bottom-30 relative">
               <img
                 src="/images/carta2.png"
                 alt="Flexing blue cat"
